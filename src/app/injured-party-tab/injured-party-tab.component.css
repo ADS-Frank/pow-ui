@@ -1,0 +1,57 @@
+#myContainer {
+    display: flex;
+}
+
+.rightHalf {
+    width: 35%;
+}
+
+.leftHalf {
+    width: 50%;
+}
+
+.rest {
+    width: 15%;
+}
+
+.leftHalf, .rightHalf, .rest {
+    height: 350px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+}
+
+.size2 {
+    flex-grow: 2;
+}
+
+.size1 {
+    flex-grow: 1;
+}
+
+#rightSplit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    padding-top: 15px;
+}
+
+#rightSplit .row {
+    width: 100%;
+    justify-content: center;
+}
+
+#rightSplit .row button {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#rightContent {
+    background: yellow;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+#myActions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#myActions button.myButton {
+    margin: 10px;
+}

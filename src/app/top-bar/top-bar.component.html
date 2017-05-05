@@ -1,0 +1,45 @@
+<md-toolbar color="primary" id="myToolbar">
+  <span>Case Investigation Summary</span>
+
+  <span class="spacer"></span>
+  
+  <button md-icon-button [mdMenuTriggerFor]="myMenu">
+    <md-icon>more_vert</md-icon>
+  </button>
+
+  <button md-icon-button>
+    <md-icon>remove</md-icon>
+  </button>
+
+  <button md-icon-button>
+    <md-icon>clear</md-icon>
+  </button>
+
+  <md-menu #myMenu="mdMenu">
+    <button md-menu-item>
+      <md-icon>history</md-icon>
+      <span>Question History</span>
+    </button>
+
+    <button md-menu-item>
+      <md-icon>warning</md-icon>
+      <span>Police / Postal Report</span>
+    </button>
+
+    <button md-menu-item>
+      <md-icon>search</md-icon>
+      <span>Auth Buyer Search</span>
+    </button>
+
+    <button md-menu-item>
+      <md-icon>view_carousel</md-icon>
+      <span>ACN Display</span>
+    </button>
+
+    <button md-menu-item>
+      <md-icon>attach_file</md-icon>
+      <span>New Document</span>
+    </button>
+  </md-menu>
+  
+</md-toolbar>

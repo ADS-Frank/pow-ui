@@ -1,0 +1,20 @@
+<app-expandable-drawer title="Case Documents" height="350">
+    <div id="myContainer" app-expandable-drawer-body>
+      <table id="myTable">
+        <th>Document</th>
+        <th>Document Description</th>
+        <th>Status</th>
+        <th>Status Changed Date</th>
+        <th>Last Update</th>
+        <th>Original Scan Date</th>
+        <tr *ngFor="let document of documents">
+          <td>{{document.name}}</td>
+          <td>{{document.description}}</td>
+          <td>{{document.status}}</td>
+          <td>{{document.statusChangeDate}}</td>
+          <td>{{document.lastUpdate}}</td>
+          <td>{{document.originalScanDate}}</td>
+        </tr>
+      </table>
+    </div>
+</app-expandable-drawer>

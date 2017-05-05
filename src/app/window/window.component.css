@@ -1,0 +1,43 @@
+#mycard {
+    /*width: 600px;*/
+    margin: 25px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+#myContainer {
+    /*background: yellow;*/
+    /*height: 350px;*/
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
+    overflow-y: scroll;
+    margin-top: 65px;
+    padding: 24px;
+    resize: vertical;
+}
+
+#myDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#myDisplay > div {
+    padding: 5px;
+}
+
+#appTabs {
+    flex-grow: 2;
+    flex-shrink: 5;
+    margin: 0;
+}
+
+#disputedAccountsSummary {
+    flex-shrink: 2;
+}
+
+#auditNotes {
+    flex-shrink: 2;
+}

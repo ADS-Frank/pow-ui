@@ -1,0 +1,13 @@
+<app-expandable-drawer title="Audit Notes" height="150">
+    <div id="myContainer" app-expandable-drawer-body>
+      <table id="myTable">
+        <th>Audit Timestamp</th><th>Racf</th><th>Action</th><th>Comments</th>
+        <tr *ngFor="let entry of entries">
+          <td>{{entry.timestamp}}</td>
+          <td>{{entry.racf}}</td>
+          <td>{{entry.action}}</td>
+          <td>{{entry.comments}}</td>
+        </tr>
+      </table>
+    </div>
+</app-expandable-drawer>

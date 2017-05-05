@@ -1,0 +1,21 @@
+<md-card id="myCard">
+  <md-toolbar color="primary">
+    <md-card-title id="myTitle">{{title}}</md-card-title>
+    
+    <span class="spacer"></span>
+
+    <md-button-toggle-group #group="mdButtonToggleGroup" value="hide"
+      (change)="onToggle($event, content)">
+      <md-button-toggle value="show">
+          <md-icon>expand_more</md-icon>
+      </md-button-toggle>
+      <md-button-toggle value="hide">
+          <md-icon>expand_less</md-icon>
+      </md-button-toggle>
+    </md-button-toggle-group>
+  </md-toolbar>
+
+  <div #content id="content">
+    <ng-content select="[app-expandable-drawer-body]"></ng-content>
+  </div>
+</md-card>

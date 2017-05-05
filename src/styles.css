@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-select-placeholder {
+    font-size: 125%;
+}
+
+.mat-input-placeholder, .mat-select-placeholder {
+    color: #5a6a84 !important;
+}
+
+.myContainer {
+    background: yellow !important;
+}
