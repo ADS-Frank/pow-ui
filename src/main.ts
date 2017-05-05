@@ -6,8 +6,6 @@ import { environment } from './environments/environment';
 
 import './polyfills.ts';
 
-if (environment.production) {
-  enableProdMode();
-}
+enableProdMode();
 
 platformBrowserDynamic().bootstrapModule(AppModule);
