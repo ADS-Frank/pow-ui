@@ -26,3 +26,15 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## ADS Simple Install
+
+To run this, have node.js & npm installed. After which follow:
+
+```shell
+$ git clone https://github.com/ADS-Frank/pow-ui.git
+$ cd ./pow-ui
+$ npm install
+$ ng serve
+```
